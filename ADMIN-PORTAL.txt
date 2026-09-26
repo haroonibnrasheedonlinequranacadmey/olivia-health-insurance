@@ -1,0 +1,20 @@
+OLIVIA ADMIN PORTAL
+
+Admin login:
+/admin/login.html
+
+After login:
+/admin/dashboard.html
+
+From the dashboard you can manage:
+- Site Settings (brand, professional name, phone, WhatsApp, email, address, hours, social links)
+- Team
+- Services
+- Plans
+- Leads
+- Consultations
+- Media Files (private Supabase Storage uploads)
+
+The website's public contact buttons read the Site Settings values, so changing phone/WhatsApp/email in the admin settings updates the website after the page reloads.
+
+Never put a Supabase service_role/secret key in this website. The browser should use only the Supabase publishable/anon key.
